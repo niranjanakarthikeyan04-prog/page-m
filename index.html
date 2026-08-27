@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Certificate Validated</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+
+            background: #f2f3f7;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            font-family: Georgia, "Times New Roman", serif;
+        }
+
+        .certificate {
+            width: 420px;
+            min-height: 195px;
+
+            background: white;
+
+            border-top: 6px solid #4caf50;
+            border-radius: 8px;
+
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+
+            padding: 12px 28px 25px;
+
+            text-align: center;
+        }
+
+        /* LOGO CROPPING */
+        .logo-container {
+    width: 120px;
+    height: 55px;
+    margin: 8px auto 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container img {
+    width: 120px;
+    height: 55px;
+
+    object-fit: contain;
+    display: block;
+}
+
+        h1 {
+            margin: 5px 0 14px;
+
+            color: #4b9d58;
+
+            font-size: 21px;
+            font-weight: bold;
+        }
+
+        .message {
+            margin: 0;
+
+            color: #333;
+
+            font-size: 13px;
+
+            line-height: 1.18;
+        }
+
+        .message strong {
+            font-weight: bold;
+        }
+
+        @media (max-width: 600px) {
+
+            body {
+                padding: 20px;
+            }
+
+            .certificate {
+                width: 100%;
+                max-width: 420px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="certificate">
+
+        <!-- YOUR ACTUAL LOGO IMAGE -->
+        <div class="logo-container">
+            <img src="image.png" alt="ApexPlanet Logo">
+        </div>
+
+        <h1>Certificate Validated</h1>
+
+        <p class="message">
+            This certificate is valid. Congratulations,
+            <strong>Monisha.R!</strong> You have successfully completed
+            the internship in <strong>Data Analytics</strong> with
+           
+            <strong>21 June, 2026 to 04 August, 2026.</strong>
+        </p>
+
+    </div>
+
+</body>
+</html>
